@@ -1,0 +1,38 @@
+.TimrPrayer {
+  padding: 40px 20px;
+  text-align: center;
+  h1 {
+    font-family: var(--font-main);
+    color: var(--nav-bg);
+    margin: 0;
+    font-size: 40px;
+  }
+  .row {
+    background-color: rgba(203, 101, 101, 1);
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 0px 0px 0px;
+    margin-top: 10px;
+    .timePrayer-img {
+      margin-top: 60px;
+    }
+    .time-prayer-content {
+      text-align: end;
+      padding: 20px 25px;
+      h4 {
+        font-family: var(--font-main);
+        color: white;
+        font-size: 42px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+      h5 {
+        font-family: var(--font-loto);
+        color: white;
+        font-weight: 800;
+        font-size: 25px;
+      }
+    }
+  }
+}

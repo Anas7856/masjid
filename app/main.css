@@ -1,0 +1,13 @@
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --nav-bg: rgba(15, 118, 110, 1);
+  --font-main: "Noto Nastaliq Urdu";
+  --input-color: rgba(185, 242, 235, 1);
+  --font-lato: "Lato", sans-serif;
+}
+@font-face {
+  font-family: "Noto Nastaliq Urdu";
+  src: url("/public/Jameel\ Noori\ Nastaleeq\ Kasheeda.ttf") format("truetype");
+  font-weight: normal;
+}
