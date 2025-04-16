@@ -6,9 +6,10 @@
     padding: 40px 30px;
     border-radius: 12px;
     align-items: center;
-    gap: 110px;
+    justify-content: space-between;
+    gap: 50px;
     h2 {
-      font-size: 20px;
+      font-size: 19px;
       font-family: var(--font-main);
       color: white;
       text-align: end;
