@@ -46,3 +46,15 @@
     }
   }
 }
+@media (max-width: 360px) {
+  .Services {
+    padding: 40px 0px !important;
+    .services-content {
+      padding: 20px 10px 20px 20px !important;
+      gap: 10px !important;
+    }
+    .last-card {
+      gap: 10px !important;
+    }
+  }
+}

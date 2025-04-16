@@ -13,19 +13,19 @@ const Course = () => {
       image: course1,
     },
     {
-      id: 1,
+      id: 2,
       title: "درس نظامی",
       subtitle: "علوم شرعبہ پر مشتمل 8 سالہ کو رس",
       image: course1,
     },
     {
-      id: 1,
+      id: 3,
       title: "درس نظامی",
       subtitle: "علوم شرعبہ پر مشتمل 8 سالہ کو رس",
       image: course1,
     },
     {
-      id: 1,
+      id: 4,
       title: "درس نظامی",
       subtitle: "علوم شرعبہ پر مشتمل 8 سالہ کو رس",
       image: course1,
@@ -40,18 +40,7 @@ const Course = () => {
           {courses.map((course) => (
             <div key={course.id} className="col-12 col-md-6 col-lg-3">
               <div className="Course-content">
-                <div className="course-content-img">
-                  {/* <Image
-                    src={course.image}
-                    height={140}
-                    width={261}
-                    alt={course.title}
-                    style={{
-                      borderTopLeftRadius: "10px",
-                      borderTopRightRadius: "10px",
-                    }}
-                  /> */}
-                </div>
+                <div className="course-content-img"></div>
                 <div className="Course-content-body">
                   <h6>{course.title}</h6>
                   <h5>{course.subtitle}</h5>

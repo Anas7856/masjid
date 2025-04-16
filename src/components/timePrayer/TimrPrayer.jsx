@@ -29,7 +29,7 @@ const TimrPrayer = () => {
           ))}
           <div className="col-6 col-md-4 col-lg-2">
             <div className="timePrayer-img">
-              <Image src={masjid} width={150} height={100} />
+              <Image src={masjid} width={150} height={100} alt="n/a" />
             </div>
           </div>
         </div>

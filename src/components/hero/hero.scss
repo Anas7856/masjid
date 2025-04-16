@@ -1,8 +1,10 @@
 .hero {
+  overflow: hidden;
   .hero-picture {
     background: url("../../../public/hero.png");
     background-position: center;
     background-size: cover;
+    width: 100%;
     padding: 257px;
   }
 }

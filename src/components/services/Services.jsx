@@ -14,7 +14,7 @@ const Services = () => {
         <div className="row gy-3">
           <div className="col-12 co-md-12 col-lg-6">
             <div className="services-content active">
-              <Image height={70} width={70} src={servies1Logo} />
+              <Image height={70} width={70} src={servies1Logo} alt="n/a" />
               <h2>
                 تعارفِ جامعہ بنوری ٹاؤن <br />
                 جامعہ اور اس کی شاخیں ایک نظر میں
@@ -23,7 +23,7 @@ const Services = () => {
           </div>
           <div className="col-12 co-md-12 col-lg-6">
             <div className="services-content">
-              <Image height={70} width={70} src={servies1Logo} />
+              <Image height={70} width={70} src={servies1Logo} alt="n/a" />
               <h2 className="active-text">
                 بانی جامعہ حضرت بنوری رحمہ اللہ
                 <br />
@@ -33,7 +33,7 @@ const Services = () => {
           </div>
           <div className="col-12 co-md-12 col-lg-6">
             <div className="services-content">
-              <Image height={70} width={70} src={people} />
+              <Image height={70} width={70} src={people} alt="n/a" />
               <h2 className="active-text">
                 محتمم
                 <br />
@@ -43,7 +43,7 @@ const Services = () => {
           </div>
           <div className="col-12 co-md-12 col-lg-6">
             <div className="services-content last-card">
-              <Image height={70} width={70} src={books} />
+              <Image height={70} width={70} src={books} alt="n/a" />
               <h2 className="active-text">
                 دارالافتاء
                 <br />
