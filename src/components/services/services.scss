@@ -63,6 +63,9 @@
     }
     .last-card {
       gap: 20px !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }
